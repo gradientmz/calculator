@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="calculator__display"></div>
+            <div class="calculator__keys">
+                <button id="add" onclick="operator('+')">+</button>
+                <button id="subtract" onclick="operator('-')">-</button>
+                <button id="multiply" onclick="operator('*')">*</button>
+                <button id="divide" onclick="operator('/')">/</button>
+                <button id="button1" onclick="append(1)">1</button>
+                <button id="button2" onclick="append(2)">2</button>
+                <button id="button3" onclick="append(3)">3</button>
+                <button id="button4" onclick="append(4)">4</button>
+                <button id="button5" onclick="append(5)">5</button>
+                <button id="button6" onclick="append(6)">6</button>
+                <button id="button7" onclick="append(7)">7</button>
+                <button id="button2" onclick="append(8)">8</button>
+                <button id="button2" onclick="append(9)">9</button>
+                <button id="button2" onclick="append(0)">0</button>
+                <button id="decimal" onclick="append('.')">.</button>
+                <button id="backspace" onclick="backspace()">Backspace</button>
+                <button id="clear" onclick="clearMath()">Clear</button>
+                <button id="equals" onclick="solve()">=</button>
+              </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

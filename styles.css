@@ -1,0 +1,20 @@
+.calculator {
+    max-width: 400px;
+    border: 2px var(--border) solid;
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: var(--calculator);
+  }
+
+  .calculator__display {
+    background-color: #222222;
+    color: #fff;
+    font-size: 1.714285714em;
+    padding: 0.5em 0.75em;
+  }
+
+  .calculator__keys {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
